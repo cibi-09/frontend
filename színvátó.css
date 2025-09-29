@@ -1,0 +1,36 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: white;
+}
+
+h1 {
+    color: black;
+    margin-bottom: 0;
+}
+
+h2 {
+    color: black;
+    font-size: small;
+    margin-top: 0px;
+}
+
+.tábla {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);
+    gap: 5px;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.cella {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    border: 1px solid black;
+    cursor: pointer;
+}
